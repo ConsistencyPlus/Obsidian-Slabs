@@ -22,7 +22,7 @@
   },
 
   "license": "GPLv3",
-  "icon": "assets/consistency_plus/icon.png",
+  "icon": "assets/obsidian_slab/icon.png",
 
   "environment": "*",
   "entrypoints": {
