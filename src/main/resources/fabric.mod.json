@@ -6,13 +6,9 @@
   "name": "Obsidian Slab",
   "description": "Obsidian Slab - Based on Consistency+ - Requested by DragonEggBedrockBreaking",
   "contributors": [
-    {"name": "Carter","contact": {"Discord": "Cart3r#1234"}},
+    {"name": "DragonEggBedrockBreaking","contact": {"Discord": "DragonEggBedrockBreaking#0034"}},
     {"name": "IMS","contact": {"Discord": "IMS#7902"}},
-    {"name": "Siuol","contact": {"Discord": "\"Siuol\" Appeared\n#5729"}},
-    {"name": "Digi","contact": {"Discord": "Digital_Tech\n#0001"}},
-    {"name": "Devin","contact": {"Github": "HiItsDevin"}},
-    {"name": "Devious","contact": {"Discord": "Deviouslrd#9151"}},
-    {"name": "Tropheus Jay","contact": {"Discord": "Tropheus Jay\n#7241"}}
+    {"name": "Siuol", "contact": {"Discord": "\"Siuol\" Appeared\n#5729"}},
   ],
 
   "contact": {
@@ -21,7 +17,7 @@
     "sources": "https://github.com/ConsistencyPlus/ConsistencyPlus"
   },
 
-  "license": "GPLv3",
+  "license": "LGPLv3",
   "icon": "assets/obsidian_slab/icon.png",
 
   "environment": "*",
@@ -32,7 +28,6 @@
   },
 
   "depends": {
-    "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "*"
   }
