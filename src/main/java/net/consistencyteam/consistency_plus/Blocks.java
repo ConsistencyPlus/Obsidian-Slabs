@@ -12,7 +12,7 @@ import static net.minecraft.block.piston.PistonBehavior.BLOCK;
 public class Blocks {
 
     //Obsidian
-        public static final Block OBSIDIAN_SLAB = register("obsidian_slab", new SlabBlock(FabricBlockSettings.of((new FabricMaterialBuilder(MaterialColor.BLACK)).pistonBehavior(BLOCK).build()).requiresTool().breakByTool(FabricToolTags.PICKAXES, 3).strength(50.0F, 1200.0F)));
+        public static final Block OBSIDIAN_SLAB = register("obsidian_slab", new SlabBlock(FabricBlockSettings.of((new FabricMaterialBuilder(MapColor.BLACK)).pistonBehavior(BLOCK).build()).requiresTool().breakByTool(FabricToolTags.PICKAXES, 3).strength(50.0F, 1200.0F)));
 
         private static Block register(String name, Block block) {
         return Registry.register(Registry.BLOCK, new Identifier("obsidian_slab", name), block);
