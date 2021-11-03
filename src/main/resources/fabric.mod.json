@@ -8,7 +8,8 @@
   "contributors": [
     {"name": "DragonEggBedrockBreaking","contact": {"Discord": "DragonEggBedrockBreaking#0034"}},
     {"name": "IMS","contact": {"Discord": "IMS#7902"}},
-    {"name": "Siuol", "contact": {"Discord": "\"Siuol\" Appeared\n#5729"}}
+    {"name": "Siuol", "contact": {"Discord": "\"Siuol\" Appeared\n#5729"}},
+    {"name": "Carter"}
   ],
 
   "contact": {
@@ -23,7 +24,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.consistencyteam.consistency_plus.ConsistencyPlus"
+      "io.github.consistencyplus.obsidianslabs.ObsidianSlabs"
     ]
   },
 
